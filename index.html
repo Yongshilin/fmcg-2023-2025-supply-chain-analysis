@@ -6,39 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supply Chain Reports</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
             background: #f5f7fa;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            padding: 20px;
         }
         .container {
             text-align: center;
             background: #fff;
-            padding: 60px 80px;
+            padding: 50px 60px;
             border-radius: 16px;
             box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+            max-width: 500px;
+            width: 100%;
         }
-        h1 { font-size: 28px; color: #1a1a2e; margin-bottom: 8px; }
-        .subtitle { color: #6b7280; font-size: 16px; margin-bottom: 32px; }
-        .links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
+        h1 {
+            font-size: 28px;
+            color: #1a1a2e;
+            margin-bottom: 4px;
+        }
+        .subtitle {
+            color: #6b7280;
+            font-size: 15px;
+            margin-bottom: 32px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
         .btn {
-            display: inline-block;
-            padding: 14px 40px;
+            display: block;
+            padding: 14px 20px;
             border-radius: 8px;
             text-decoration: none;
             font-weight: 600;
             font-size: 16px;
             transition: all 0.2s;
+            border: 1px solid #e5e7eb;
         }
-        .btn-en { background: #1a1a2e; color: #fff; }
-        .btn-en:hover { background: #2d2d4e; transform: translateY(-2px); }
-        .btn-cn { background: #e8ecf1; color: #1a1a2e; }
-        .btn-cn:hover { background: #d5dae2; transform: translateY(-2px); }
-        .footer { margin-top: 32px; font-size: 13px; color: #9ca3af; }
+        .btn-en {
+            background: #1a1a2e;
+            color: #fff;
+            border-color: #1a1a2e;
+        }
+        .btn-en:hover {
+            background: #2d2d4e;
+            transform: translateY(-2px);
+        }
+        .btn-cn {
+            background: #fff;
+            color: #1a1a2e;
+            border-color: #d1d5db;
+        }
+        .btn-cn:hover {
+            background: #f3f4f6;
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 28px;
+            font-size: 13px;
+            color: #9ca3af;
+        }
     </style>
 </head>
 <body>
@@ -46,8 +85,8 @@
         <h1>Supply Chain Profitability Report</h1>
         <p class="subtitle">FMCG Industry · 2023-2025</p >
         <div class="links">
-            <a href=" " class="btn btn-en"> English Report</a >
-            <a href="FMCG_supply_chain_report_CN.html" class="btn btn-cn"> 中文报告</a >
+            <a href=" " class="btn btn-en">English Report</a >
+            <a href="FMCG_supply_chain_report_CN.html" class="btn btn-cn">中文报告</a >
         </div>
         <p class="footer">Reports auto-generated from analysis</p >
     </div>
