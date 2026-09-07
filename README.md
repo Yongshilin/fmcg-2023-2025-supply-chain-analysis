@@ -50,12 +50,10 @@ This project analyzes profitability from a **supply chain perspective** for an F
 
 Running the analysis notebook automatically generates two HTML reports:
 
-| Report | Description |
-|--------|-------------|
-| `FMCG_supply_chain_report_EN.html` | Static HTML report (English) |
-| `FMCG_supply_chain_report_CN.html` | Static HTML report (Chinese) |
+`FMCG_supply_chain_report_EN.html` - Static HTML report (English) 
+`FMCG_supply_chain_report_CN.html` - Static HTML report (Chinese) 
 
-The reports will open automatically in your default browser upon generation (run all code).
+The reports will open automatically in your default browser upon generation (open the .py file or .ipynb file, then click 'run all').
 
 ---
 
@@ -63,8 +61,8 @@ The reports will open automatically in your default browser upon generation (run
 
 ```
 
-├── notebooks/
-│   └── SCM Analysis Full.ipynb
+├── SCM_Analysis_Full.ipynb
+├── SCM_Analysis_Full.py  
 ├── report graphs/               # All charts
 ├── *.html                       # HTML reports (auto-generated)
 ├── *.csv                        # Analysis results by dimension
@@ -82,10 +80,11 @@ jupyter notebook SCM Analysis Full.ipynb
 
 Run all cells. The analysis will:
 
-1. Process the data
+1. Process the data and analyze from 5 different dimensions (regions, product categories, sales channels, promotions, and time trends)
 2. Generate all charts in report graphs/
 3. Export CSV files
 4. Create and automatically open two HTML reports (English & Chinese) in your browser
+5. You can print PDF versions for the HTML reports (I attach PDFs here for better preview)
 
 Author
 
