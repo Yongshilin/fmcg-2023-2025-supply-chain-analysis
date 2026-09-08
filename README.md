@@ -47,7 +47,7 @@ This project analyzes profitability from a **supply chain perspective** for an F
 ---
 
 ## Reports
-- **Click here to preview:** `https://yongshilin.github.io/fmcg-2023-2025-supply-chain-analysis/`
+- **Click here to preview:** https://yongshilin.github.io/fmcg-2023-2025-supply-chain-analysis/
 
 - Running the analysis notebook automatically generates two HTML reports:
 
