@@ -47,13 +47,15 @@ This project analyzes profitability from a **supply chain perspective** for an F
 ---
 
 ## Reports
+- **Click here to preview:** `https://yongshilin.github.io/fmcg-2023-2025-supply-chain-analysis/`
 
-Running the analysis notebook automatically generates two HTML reports:
+- Running the analysis notebook automatically generates two HTML reports:
 
 `FMCG_supply_chain_report_EN.html` - Static HTML report (English) 
 `FMCG_supply_chain_report_CN.html` - Static HTML report (Chinese) 
 
 The reports will open automatically in your default browser upon generation (open the .py file or .ipynb file, then click 'run all').
+
 
 ---
 
